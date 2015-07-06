@@ -100,3 +100,38 @@
 - 在需求二的基础上把service打成jar包，然后将所有程序打成war包，放在tomcat下面执行访问
   
 提示：放在tomcat下运行，需要自己写一个servlet
+
+####提问
+- 如何打包成war
+
+```
+
+    jar cf hello.war hello
+```
+- war包的结构是怎样的
+
+```
+    WEB-INF
+    |_web.xml
+    |_classes
+        |_*.class
+    |_lib
+        |_*.jar
+```
+- tomcat如何运行war包
+    * tomcat目录结构
+    
+```
+
+    tomcat
+    |_bin
+    ...
+    |_webapps
+        |_yourwar.war
+```
+    * 启动tomcat
+    
+``
+    
+        ./bin/startup.sh
+``
