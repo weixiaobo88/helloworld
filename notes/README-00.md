@@ -66,7 +66,7 @@
     * JAVA_HOME
     * jdk jre jvm关系
 - Java程序中“包”的概念，和文件夹是一一对应的
-- Java程序的入口函数
+- Java程序的入口函数，main函数的写法
 
 
 ###需求二：
